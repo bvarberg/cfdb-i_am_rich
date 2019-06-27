@@ -14,14 +14,13 @@ void main() {
     MaterialApp(
       home: Scaffold(
           appBar: AppBar(
-            title: Text("I Am Rich"),
+            title: Text('I Am Rich'),
             backgroundColor: Colors.blueGrey[900],
           ),
           backgroundColor: Colors.blueGrey,
           body: Center(
             child: Image(
-              image: NetworkImage(
-                  'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/R%C3%A5dhuspladsen_-_Vartorv.jpg/1200px-R%C3%A5dhuspladsen_-_Vartorv.jpg'),
+              image: AssetImage('images/diamond.png'),
             ),
           )),
     ),
